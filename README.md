@@ -1,4 +1,4 @@
-<h1 align="center">Bienvenue sur le readme de LITReview 👋</h1>
+<h1 align="center">Bienvenue sur le readme de Tuto Django 👋</h1>
 <p align="center">
   <a href="https://twitter.com/LaurentJouron">
     <img alt="Twitter: LaurentJouron" 
@@ -18,7 +18,7 @@
 
 ### ``--- Explication en français ---``
 ___________
-Cet exercice a été réalisé dans le cadre d'une formation dont voici le sujet :
+Cet exercice a été réalisé en suiant le tuto de la doc officiel de Django:
 ___
 
 
@@ -44,6 +44,13 @@ ___
           src="https://www.python.org/static/img/python-logo.png" /><br />
         <sub><b>Téléchargez Python</b></sub></a><br />
       <a href=https://www.python.org/" title="Téléchargez Python" ></a> 
+    </td>
+    <td align="center">
+      <a href="https://www.djangoproject.com/download/">
+        <img width="170px"
+          src="https://static.djangoproject.com/img/logos/django-logo-negative.png" /><br />
+        <sub><b>Téléchargez Django</b></sub></a><br />
+      <a href="https://www.djangoproject.com/download/" title="Téléchargez Django" ></a> 
     </td>
   </tr>
 </table>
@@ -91,10 +98,10 @@ Pour installer les dépendances du projet, nous utilisons l'outil pipenv que vou
   * ``pipx install pipenv``
 
 Pour commencer il faut cloner le projet grâce à l'url suivante :
-  * ``git clone https://github.com/LaurentJouron/LITReview.git``
+  * ``git clone https://github.com/LaurentJouron/TutoDjango.git``
 
 Il faut se déplacer dans le dossier:
-  * ``cd LITReview``
+  * ``cd TutoDjango``
 
 Voici la procédure pour afficher la page d'accueil du site:
 
@@ -125,14 +132,6 @@ ___
         <sub><b>Laurent Jouron</b></sub></a><br />
       <a href="https://openclassrooms.com/fr/" title="Étudiant">🈸</a>
       <a href="https://github.com/LaurentJouron/Books-online" title="Codeur de l'application">💻</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/thierhost">
-        <img src="https://avatars.githubusercontent.com/u/7854284?s=100&v=4"
-          width="100px;"/><br />
-        <sub><b>Thierno Thiam</b></sub></a><br />
-      <a href="https://github.com/thierhost" title="Mentor de Laurent">👨‍🏫</a> 
-      <a href="https://www.python.org/dev/peps/pep-0008/" title="Doc PEP 8">📄</a>
     </td>
   </tr>
 </table>
