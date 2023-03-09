@@ -1,7 +1,8 @@
 li a {
-    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
 
 body {
-    background: white url("images/JustStreamIt.png") no-repeat;
+    background: white url("images/background.png") no-repeat;
 }
