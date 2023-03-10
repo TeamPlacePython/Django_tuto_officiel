@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'account.apps.AccountConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -126,12 +125,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# AUTH_USER_MODEL = 'authentication.User'
+AUTH_USER_MODEL = 'auth.User'
 
-# LOGIN_URL = 'login'
+LOGIN_URL = 'account/login/'
 
-# LOGIN_REDIRECT_URL = 'reviews'
-# LOGOUT_REDIRECT_URL = LOGIN_URL
+LOGIN_REDIRECT_URL = 'pages/'
+LOGOUT_REDIRECT_URL = LOGIN_URL
 
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = BASE_DIR.joinpath('media/')
