@@ -1,5 +1,5 @@
 {% load static %}
-<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+{% comment %} <link rel="stylesheet" href="{% static 'polls/style.css' %}"> {% endcomment %}
 
 <form action="{% url 'polls:vote' question.id %}" method="post">
     {% csrf_token %}
